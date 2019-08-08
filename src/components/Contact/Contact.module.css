@@ -1,0 +1,47 @@
+.card{
+    border-radius: 10px;
+    display: flex;
+    margin: 50px auto auto auto;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    width: 90%;
+    font-size: 2vh;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    background-color: grey;
+    /* background: url('../.././assets/Images/contac2.jpg'); */
+}
+.card img{
+    /* height: 200px; */
+    /* width: 200px; */
+    border: 1px solid grey;
+    margin: 10px;
+    height: 90%;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    /* border-radius: 5px; */
+}
+.card>div {
+    /* float: right; */
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px; 
+    margin: 10px 0 0 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.columnFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}

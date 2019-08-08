@@ -1,0 +1,67 @@
+
+
+/* NOTE This '.temporary' class needs to be updated */
+.temporary{
+    
+    border: 1px solid white;
+}
+
+
+.toolbar{
+    width : 100%;
+    position:fixed;
+    background-color:grey;    
+    border: 1px solid white;
+}
+
+.toolbar_logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 0 0 1rem;
+
+}
+
+.toolbar_navigation{
+    display: flex;
+    padding: 0 0 0 10px;
+    align-items: center;
+}
+
+.toolbar_navigation_items a:hover,
+.toolbar_navigation_items a:active{
+    color: #231a59;
+    
+}
+.toolbar_navigation_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.toolbar_navigation_items li{
+    padding: 0 0.5rem;
+
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.space{
+    flex: 1;
+}
+
+@media screen and (max-width : 750px){
+    .toolbar_navigation_items{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 750px){
+    .toggleButtonVisibility{
+        display: none;
+    }
+}

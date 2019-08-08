@@ -1,0 +1,37 @@
+.topTab{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto Slab', Roboto Mono;
+    text-align: center;
+    border-color: transparent;
+    background-color: #231a59;
+}
+.topTab:hover{
+    background-color:grey;
+}
+
+.topTab button{
+    float: right;
+}
+/* Dark Grey #282c34 */
+.content{
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #231a59;
+    margin: 1px 0 0 0;    
+}
+
+.wrapper{
+    width: 90%;
+    margin: 5px auto;
+    border: 2px solid grey;
+
+    box-shadow: 1px 1px 10px black;
+    padding: 2px 2px 2px 2px;
+    background-color:white;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}

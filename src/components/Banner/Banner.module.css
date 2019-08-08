@@ -1,0 +1,31 @@
+.banner{
+    display: flex;    
+    background-color: #231a59;
+    width:100%;
+    color: white;    
+    /* height: 200px; */
+    justify-content: center;
+    flex-direction: column;    
+    z-index: +1;
+    /* font-family: 'Roboto Mono', monospace; */
+font-family: 'Roboto Slab', serif;
+font-weight: bolder;
+/* font-family: 'Open Sans', sans-serif; */
+}
+
+.banner img{
+    height: 150px;
+    position: relative;
+}
+
+h1{    
+    font-weight: 900;
+}
+
+.background{
+    /* background: url(../../assets/Images/wp2.jpg); */
+    height: 200px;
+    filter: blur(2px);
+    /* width: 2500px; */
+
+}

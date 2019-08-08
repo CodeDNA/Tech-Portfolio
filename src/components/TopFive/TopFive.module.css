@@ -1,0 +1,40 @@
+.topFiveImages{
+    display: block;
+    width: 90%;  
+    margin: auto;  
+    /* background-color: #231a59; */
+    padding: 20px 0 20px 0;
+    background: url('../../assets/Images/deskroundBlur.jpg');
+    background-size:cover;
+    background-position: 5px;
+    /* flex-direction: row; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+
+}
+
+.topFiveImages img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 20%;
+    margin: 0 5px 0 5px;
+}
+
+.header{
+    font-family: 'Roboto Slab', Roboto Mono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #231a59;
+    display: block;
+    width: 90%;  
+    margin: auto auto 2px auto;
+    padding:0 0 2px 0;
+    border-radius: 10px;
+
+}
+

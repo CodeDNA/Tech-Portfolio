@@ -1,0 +1,52 @@
+.heading{
+    font-family: 'Roboto Slab', Roboto Mono;
+    display: flex; 
+    flex-direction: row;   
+    width: 100%;
+    background-color:grey;
+    color:white;
+    border-radius: 5px
+}
+.space{
+    flex:1;
+}
+
+.deleteBtn{
+    width: 20px;
+    height : 20px;
+}
+
+.heading button{
+    float: right;
+    height: 100%;
+}
+
+.container{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px;    
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-around
+}
+
+.flexify{
+    display: flex;
+    flex-direction: row;
+}
